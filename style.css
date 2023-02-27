@@ -4,10 +4,17 @@
 	box-sizing: border-box;
 }
 .body{
-	display:flex;
-	justify-content: flex-end;
-	align-items: flex-end;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	min-height: 100vh;
+}
+.ttitle{
+	margin-top: -100px;
+	text-align:center;
+	font-size: 50px;
+	padding: 50px 0px;
+	color: #fff;
 }
 footer {
 	position: relative;
@@ -22,6 +29,10 @@ footer {
 	border: 3px solid black;
 	border-right: none;
 	border-left: none;
+}
+.sticky-footer {
+	position: sticky;
+	top: 100%;
 }
 footer .icons, .bot-menu {
 	position: relative;
@@ -227,3 +238,65 @@ button:hover{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+.header {
+	text-align: center;
+    color: #fff;
+	padding: 10px;
+	position: relative;
+	font-size: 50px;
+	margin-top: -45px;
+}
+.header:after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 4px;
+	width: 100px;
+	background-color: #2ecc71;
+}
+.bodyskill {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.skills {
+	 width: 100%;
+	 padding: 100px 0px;
+	 background-color: #191919;
+	 justify-content: center;
+ }
+ .cover {
+	 width: 900px;
+	 height: 400px;
+	 margin-top: 150px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+ }
+ .box {
+	 margin-top: -230px;
+	 margin-bottom: 100px;
+	 padding: 80px;
+	 width: 800px;
+	 height: 400px;
+	 box-shadow: -1px 0 10px #0000;
+	 align-items: center;
+	 justify-content: center;
+	 text-align: center;
+ }
+ .box p{
+	 color: #75B9BE;
+	 margin-top: 10px;
+	 letter-spacing: 3px;
+ }
+ .box h2{
+	 color: #2274A5;
+	 margin-top: 10px;
+ }
+.skillimg {
+	 width: 300px;
+	 height: 250px;
+	 display: flex;
+}
+
