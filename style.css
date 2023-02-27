@@ -83,7 +83,7 @@ footer p {
 nav{
     align-items: center;
     justify-content: space-between;
-	font-family: sans-serif;
+	font-family: monaco;
 }
 nav ul {
 	list-style: none;
@@ -185,6 +185,7 @@ span{
 }
 .about-text{
 	width: 550px;
+	font-family: helvetica;
 }
 .main{
 	width: 1130px;
@@ -205,6 +206,7 @@ span{
 .about-text h2{
 	color: white;
 	font-size: 75px;
+	font-family: dina;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
@@ -245,6 +247,14 @@ button:hover{
 	position: relative;
 	font-size: 50px;
 	margin-top: -45px;
+}
+.header-contact {
+	text-align: center;
+    color: #fff;
+	padding: 10px;
+	position: relative;
+	font-size: 50px;
+	margin-top: 60px;
 }
 .header:after {
 	position: absolute;
@@ -299,4 +309,33 @@ button:hover{
 	 height: 250px;
 	 display: flex;
 }
+.aboutb {
+	margin-left: 220px;
+	margin-top: 20px;
+}
+.square {
+  width: 500px;
+  inline-size: 500px;
+  height: 230px;
+  margin-left: 590px;
+  margin-top: 100px;
+  padding: 25px;
+  border: 5px solid #0A2472;
+  background-color: #191919;
+  justify-content: center;
+  border-radius: 15%;
+}
+.mec {
+	color: white;
+	text-align: center;
+	justify-content: center;
+	margin-top: 50px;
+}
 
+tr td{
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: ariel;
+	color: white;
+}
